@@ -1,0 +1,51 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+  --font-family-outfit:'outfit', sans-serif;
+  --font-weight-regular: 400;
+   --font-weight-bold: 700;
+  --font-size-paragraph:15px;
+}
+
+body{
+    background-color: var(--color-slate-300);
+    font-family: var(--font-family-outfit);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+      background-color: var(--color-white); /* White background for the QR card */
+  box-shadow: 0 10px 20px -5px var(--color-slate-500); /* A subtle shadow */
+border-radius: 30px;
+width: 310px;
+padding: 15px;
+align-items: center;
+justify-content: center;
+}
+.container img{
+    width: 310px;
+    border-radius: 14px;
+}
+.container h1{
+   
+      color: var(--color-slate-900); 
+    font-family: var(--font-family-outfit);
+    font-size: 23px;
+  font-weight: 700;
+  padding: 5px;
+  text-align: center;
+}
+.container p{
+     font-family: var(--font-family-outfit);
+     color: var(--color-slate-500);
+    font-size: 18px;
+  font-weight: 400;
+   text-align: center;
+   padding: 10px;
+   margin-top: -10px;
+}
